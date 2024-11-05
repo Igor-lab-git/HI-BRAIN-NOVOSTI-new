@@ -1,0 +1,55 @@
+
+.header { 
+    width: 1920px;
+    height: 72px;
+    padding-top: 16px;
+    background-color: var(--white-color);
+}
+
+.wrapper-header {
+    height: 40px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.svg-footer-logo path:hover {
+    fill: var(--orange-color);
+}
+
+.btn-login {
+    background: url(../img/HEADER/account-logo.svg) no-repeat left center;
+    padding-left: 32px;
+    height: 24px;
+    margin-right: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--fonts-color);
+}
+
+.btn-login:hover {
+    color: var(--blue-color);
+    text-decoration: underline;
+}
+
+.btn-search {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #b4b6b8;
+    border-radius: 50%;
+}
+
+.btn-search::after {
+    content: '';
+    position: absolute;
+    height: 7px;
+    width: 2px;
+    background: #b4b6b8;
+    left: 11px;
+    top: 11px;
+    transform: rotate(145deg);
+    border-radius: 1px;
+}

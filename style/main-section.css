@@ -1,0 +1,115 @@
+
+.wrapper-advertisements {
+    width: 867px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--greei-color);
+    padding-bottom: 32px;
+}
+
+.title {
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--fonts-color);
+}
+
+.span-advertisements {
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--fonts-color);
+    opacity: 60%;
+}
+
+.btn-advertisements {
+    background: url(../img/MAIN/Group-plus.svg) no-repeat right center;
+    background-position: 97px;
+    width: 133px;
+    height: 40px;
+    padding: 8px 52px 8px 16px;
+    background-color: var(--blue-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+.btn-advertisements:hover {
+    background-color: var(--orange-color);
+}
+
+.wrapper-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.form-iput {
+    width: 420px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 16px;
+    border: none;
+    color: var(--fonts-color);
+    background-image: url(../img/MAIN/search.svg);
+    background-repeat: no-repeat;
+    background-position: 380px;
+}
+
+.form-btn {
+    width: 159px;
+    height: 40px;
+    padding-right: 40px;
+    background: url(../img/MAIN/Group-btn-filter.svg) no-repeat right center;
+    background-color: var(--btn-greey);
+    background-position: 120px;
+}
+
+.form-btn:hover {
+    color: var(--orange-color);
+}
+
+.wrapper-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.span-list {
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--fonts-color);
+}
+
+.list-btn-left {
+    width: 24px;
+    height: 24px;
+    background: url(../img/MAIN/btn-list-left.svg);
+}
+
+.list-btn-left:hover {
+    background-color: var(--orange-color);
+}
+
+.list-btn-right {
+    width: 24px;
+    height: 24px;
+    background: url(../img/MAIN/btn-list-rigt.svg);
+}
+
+.list-btn-right:hover {
+    background-color: var(--orange-color);
+}
